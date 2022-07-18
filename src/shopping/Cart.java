@@ -59,9 +59,10 @@ public class Cart {
     public void printCart(){
         for (Product product : cartItems) {
             System.out.println("Nome do produto: " + product.getName());
-            System.out.println("Nome do produto: " + product.getBrand());
-            System.out.println("Nome do produto: " + product.getDescription());
-            System.out.println("Nome do produto: " + product.getPrice());
+            System.out.println("Marca do produto: " + product.getName());
+            System.out.println("Descricao do produto: " + product.getName());
+            System.out.println("Preco do produto: " + product.getName());
+            System.out.println();
         }
     }
     
